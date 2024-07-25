@@ -8,5 +8,20 @@
 
 .bg-leaves {
   background: url("../../public/leaves_bw.jpg") no-repeat cover;
+  background-image: url("../../public/leaves_bw.jpg");
   background-color: #364528;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.logoAnimation {
+  animation: 2s ease-out 0s 1 fadeIn;
 }
